@@ -3073,3 +3073,96 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.08-00.01.40:099][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.09.08-00.01.40:147][511]LogPlayLevel: Display: Destroying online subsystem :Context_26
 [2023.09.08-00.01.40:150][511]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.08-00.04.30:409][156]LogEditorViewport: Clicking Background
+[2023.09.08-00.07.40:906][887]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.08-00.07.40:978][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.09.08-00.07.41:052][887]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.41:887][946]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.08-00.07.41:897][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.08-00.07.41:897][946]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 4:07:41 AM)
+[2023.09.08-00.07.41:897][946]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.08-00.07.41:901][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003468s)
+[2023.09.08-00.07.41:901][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003516s)
+[2023.09.08-00.07.41:901][946]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.08-00.07.41:901][946]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.08-00.07.41:902][946]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.08-00.07.41:902][946]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2023.09.08-00.07.41:932][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.09.08-00.07.41:937][946]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.09.08-00.07.41:937][946]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.08-00.07.41:937][946]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.08-00.07.41:937][946]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.08-00.07.41:937][946]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.08-00.07.41:937][946]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.08-00.07.41:937][946]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.08-00.07.41:937][946]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.08-00.07.41:937][946]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.08-00.07.41:938][946]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.08-00.07.41:938][946]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.08-00.07.41:938][946]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.08-00.07.41:940][946]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.08-00.07.41:979][946]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.08-00.07.41:979][946]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.08-00.07.41:979][946]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.08-00.07.41:979][946]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.08-00.07.41:980][946]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.09.08-00.07.41:980][946]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.09.08-00.07.41:982][946]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.09.08-00.07.41:982][946]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.09.08-00.07.41:982][946]LogInit: FAudioDevice initialized with ID 24.
+[2023.09.08-00.07.41:982][946]LogAudio: Display: Audio Device (ID: 24) registered with world 'Map_SideScroller2D'.
+[2023.09.08-00.07.41:982][946]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2023.09.08-00.07.41:987][946]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.08-00.07.41:989][946]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-02.07.41
+[2023.09.08-00.07.41:989][946]LogWorld: Bringing up level for play took: 0.001601
+[2023.09.08-00.07.41:991][946]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.09.08-00.07.41:993][946]PIE: Server logged in
+[2023.09.08-00.07.41:994][946]PIE: Play in editor total start time 0.1 seconds.
+[2023.09.08-00.07.42:010][946]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.42:010][946]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.42:010][946]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.42:011][946]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.42:011][946]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.42:012][946]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.42:012][946]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.07.45:452][318]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.46:302][420]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.47:078][513]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.47:703][588]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.48:461][679]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.49:077][753]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.49:719][830]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.54:144][361]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.07.54:886][450]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.08-00.08.01:456][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.08-00.08.01:456][122]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.08-00.08.01:456][122]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.08-00.08.01:456][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.08-00.08.01:496][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.08-00.08.01:502][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.08-00.08.01:530][122]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.08-00.08.01:530][122]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2023.09.08-00.08.01:530][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.09.08-00.08.01:532][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.09.08-00.08.01:535][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.08-00.08.01:538][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.09.08-00.08.01:557][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.08.01:557][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.08.01:558][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.08.01:558][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.08.01:559][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.08.01:559][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.08.01:560][122]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.08.01:658][123]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.09.08-00.08.25:049][294]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.08-00.08.25:108][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Sprite_Character" FILE="../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Content/Blueprint/Sprite_Character.uasset" SILENT=true
+[2023.09.08-00.08.25:145][294]LogSavePackage: Moving output files for package: /Game/Blueprint/Sprite_Character
+[2023.09.08-00.08.25:145][294]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Sprite_Character32AE27A9493DD87002202EA049B932D0.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Content/Blueprint/Sprite_Character.uasset'
+[2023.09.08-00.08.25:151][294]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 479 ms)
+[2023.09.08-00.08.25:161][294]AssetCheck: New page: Asset Save: Sprite_Character
+[2023.09.08-00.08.25:161][294]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint/Sprite_Character.Sprite_Character
+[2023.09.08-00.10.02:700][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.09.08-00.10.02:707][ 47]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Map_SideScroller2D_Auto4
+[2023.09.08-00.10.02:708][ 47]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Map_SideScroller2D_Auto4C03BBCF4408CB835B07CF9B99C12AD69.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Autosaves/Game/Maps/Map_SideScroller2D_Auto4.umap'
+[2023.09.08-00.10.02:717][ 47]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Map_SideScroller2D' took 0.045
+[2023.09.08-00.10.02:717][ 47]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.045
