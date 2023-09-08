@@ -1843,3 +1843,1233 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.09.07-22.51.17:438][758]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.09.07-22.51.17:438][758]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.09.07-22.51.17:536][759]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.09.07-22.55.29:375][881]LogEditorViewport: Clicking Background
+[2023.09.07-22.58.49:113][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.09.07-22.58.49:121][ 18]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Map_SideScroller2D_Auto1
+[2023.09.07-22.58.49:121][ 18]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Map_SideScroller2D_Auto1B3B566214A98DFBC2B542094AFE6490D.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Autosaves/Game/Maps/Map_SideScroller2D_Auto1.umap'
+[2023.09.07-22.58.49:132][ 18]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Map_SideScroller2D' took 0.047
+[2023.09.07-22.58.49:132][ 18]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2023.09.07-22.58.49:133][ 18]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Sprite_Character] ([2] browsable assets)...
+[2023.09.07-22.58.49:133][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Sprite_Character]
+[2023.09.07-22.58.49:166][ 18]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/Sprite_Character_Auto1
+[2023.09.07-22.58.49:167][ 18]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Sprite_Character_Auto1BCE22B2A49DBF9ABEDF5E489E0F5EAD8.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Autosaves/Game/Blueprint/Sprite_Character_Auto1.uasset'
+[2023.09.07-22.58.49:168][ 18]LogFileHelpers: Auto-saving content packages took 0.036
+[2023.09.07-23.00.54:262][122]LogSlate: Took 0.006035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.09.07-23.03.10:425][335]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.09.07-23.04.56:925][754]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.04.56:934][754]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.07-23.04.56:935][754]LogPlayLevel: [PlayLevel] Compiling Sprite_Character before play...
+[2023.09.07-23.04.57:070][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.09.07-23.04.57:070][754]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (1 blueprints)
+[2023.09.07-23.04.57:071][754]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:04:57 AM)
+[2023.09.07-23.04.57:071][754]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.04.57:073][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002211s)
+[2023.09.07-23.04.57:073][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002246s)
+[2023.09.07-23.04.57:073][754]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.04.57:073][754]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.04.57:073][754]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.04.57:074][754]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2023.09.07-23.04.57:100][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.09.07-23.04.57:100][754]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.09.07-23.04.57:100][754]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.04.57:101][754]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.04.57:101][754]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.04.57:101][754]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.04.57:101][754]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.04.57:101][754]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.04.57:101][754]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.04.57:101][754]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.04.57:101][754]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.04.57:101][754]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.04.57:101][754]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.04.57:104][754]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.04.57:145][754]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.04.57:145][754]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.04.57:146][754]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.04.57:146][754]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.04.57:147][754]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.09.07-23.04.57:147][754]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.09.07-23.04.57:149][754]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.09.07-23.04.57:149][754]LogInit: FAudioDevice initialized with ID 9.
+[2023.09.07-23.04.57:149][754]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.09.07-23.04.57:149][754]LogAudio: Display: Audio Device (ID: 9) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.04.57:149][754]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.09.07-23.04.57:152][754]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.04.57:153][754]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.04.57
+[2023.09.07-23.04.57:153][754]LogWorld: Bringing up level for play took: 0.001220
+[2023.09.07-23.04.57:155][754]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.09.07-23.04.57:157][754]PIE: Server logged in
+[2023.09.07-23.04.57:158][754]PIE: Play in editor total start time 0.224 seconds.
+[2023.09.07-23.04.57:170][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.04.57:170][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.04.57:170][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.04.57:171][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.04.57:171][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.04.57:172][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.04.57:172][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.01:073][136]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.07-23.05.02:623][292]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.07-23.05.05:759][593]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.07-23.05.06:976][716]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.07-23.05.07:756][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.05.07:756][790]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.05.07:756][790]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.05.07:756][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.05.07:780][790]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.05.07:785][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.05.07:809][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.05.07:809][790]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.09.07-23.05.07:809][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.07-23.05.07:811][790]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.09.07-23.05.07:817][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.09.07-23.05.07:845][790]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.07:845][790]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.07:846][790]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.07:847][790]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.07:847][790]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.07:848][790]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.07:848][790]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.05.07:952][791]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.09.07-23.09.49:475][323]LogEditorViewport: Clicking Background
+[2023.09.07-23.09.50:170][386]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.09.50:180][386]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.07-23.09.50:181][386]LogPlayLevel: [PlayLevel] Compiling Sprite_Character before play...
+[2023.09.07-23.09.50:319][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.09.07-23.09.50:321][386]LogPlayLevel: PlayLevel: Blueprint regeneration took 141 ms (1 blueprints)
+[2023.09.07-23.09.50:321][386]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:09:50 AM)
+[2023.09.07-23.09.50:321][386]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.09.50:323][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002060s)
+[2023.09.07-23.09.50:323][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002096s)
+[2023.09.07-23.09.50:323][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.09.50:323][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.09.50:324][386]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.09.50:324][386]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2023.09.07-23.09.50:350][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.09.07-23.09.50:351][386]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.09.07-23.09.50:351][386]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.09.50:351][386]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.09.50:351][386]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.09.50:351][386]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.09.50:351][386]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.09.50:351][386]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.09.50:351][386]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.09.50:351][386]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.09.50:352][386]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.09.50:352][386]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.09.50:352][386]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.09.50:353][386]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.09.50:392][386]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.09.50:393][386]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.09.50:393][386]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.09.50:393][386]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.09.50:393][386]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.09.07-23.09.50:393][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.09.07-23.09.50:395][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.09.07-23.09.50:395][386]LogInit: FAudioDevice initialized with ID 10.
+[2023.09.07-23.09.50:395][386]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.09.07-23.09.50:395][386]LogAudio: Display: Audio Device (ID: 10) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.09.50:395][386]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.09.07-23.09.50:398][386]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.09.50:399][386]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.09.50
+[2023.09.07-23.09.50:399][386]LogWorld: Bringing up level for play took: 0.001194
+[2023.09.07-23.09.50:401][386]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.09.07-23.09.50:404][386]PIE: Server logged in
+[2023.09.07-23.09.50:404][386]PIE: Play in editor total start time 0.225 seconds.
+[2023.09.07-23.09.50:415][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.09.50:416][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.09.50:416][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.09.50:417][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.09.50:417][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.09.50:418][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.09.50:418][386]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:348][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.25.09:349][548]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.25.09:349][548]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.25.09:349][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.25.09:373][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.25.09:377][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.25.09:401][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.25.09:402][548]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.09.07-23.25.09:402][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.09.07-23.25.09:403][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.09.07-23.25.09:411][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.09.07-23.25.09:430][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:430][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:431][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:431][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:432][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:433][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:434][548]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.25.09:533][549]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.09.07-23.30.13:158][509]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.07-23.30.13:277][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.09.07-23.30.13:385][509]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.14:403][569]LogEditorViewport: Clicking Background
+[2023.09.07-23.30.15:231][622]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.30.15:242][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.30.15:242][622]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:30:15 AM)
+[2023.09.07-23.30.15:242][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.30.15:244][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002054s)
+[2023.09.07-23.30.15:244][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002091s)
+[2023.09.07-23.30.15:244][622]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.30.15:244][622]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.30.15:245][622]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.30.15:245][622]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2023.09.07-23.30.15:281][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.09.07-23.30.15:287][622]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.09.07-23.30.15:287][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.30.15:287][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.30.15:287][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.30.15:287][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.30.15:287][622]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.30.15:287][622]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.30.15:287][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.30.15:287][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.30.15:288][622]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.30.15:288][622]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.30.15:288][622]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.30.15:290][622]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.30.15:332][622]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.30.15:333][622]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.30.15:333][622]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.30.15:333][622]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.30.15:334][622]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.09.07-23.30.15:334][622]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.09.07-23.30.15:335][622]LogInit: FAudioDevice initialized with ID 11.
+[2023.09.07-23.30.15:335][622]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.09.07-23.30.15:335][622]LogAudio: Display: Audio Device (ID: 11) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.30.15:335][622]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.09.07-23.30.15:335][622]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.09.07-23.30.15:338][622]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.30.15:339][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.30.15
+[2023.09.07-23.30.15:340][622]LogWorld: Bringing up level for play took: 0.001392
+[2023.09.07-23.30.15:342][622]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.09.07-23.30.15:344][622]PIE: Server logged in
+[2023.09.07-23.30.15:344][622]PIE: Play in editor total start time 0.105 seconds.
+[2023.09.07-23.30.15:361][622]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.15:362][622]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.15:362][622]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.15:362][622]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.15:363][622]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.15:363][622]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.15:364][622]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:730][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.30.28:730][490]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.30.28:730][490]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.30.28:730][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.30.28:767][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.30.28:773][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.30.28:800][490]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.07-23.30.28:800][490]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.09.07-23.30.28:800][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.09.07-23.30.28:802][490]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.09.07-23.30.28:806][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.30.28:808][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.09.07-23.30.28:840][490]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:840][490]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:841][490]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:842][490]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:842][490]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:842][490]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:843][490]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.30.28:939][491]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.09.07-23.32.18:645][357]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.09.07-23.32.18:652][357]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Map_SideScroller2D_Auto2
+[2023.09.07-23.32.18:653][357]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Map_SideScroller2D_Auto2D00FE828496288A6AA8D01A9D9B04789.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Autosaves/Game/Maps/Map_SideScroller2D_Auto2.umap'
+[2023.09.07-23.32.18:662][357]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Map_SideScroller2D' took 0.044
+[2023.09.07-23.32.18:662][357]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
+[2023.09.07-23.32.18:662][357]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Sprite_Character] ([2] browsable assets)...
+[2023.09.07-23.32.18:662][357]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Sprite_Character]
+[2023.09.07-23.32.18:698][357]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/Sprite_Character_Auto2
+[2023.09.07-23.32.18:699][357]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Sprite_Character_Auto2BD0A5515474161E84711DA915085D77A.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Autosaves/Game/Blueprint/Sprite_Character_Auto2.uasset'
+[2023.09.07-23.32.18:700][357]LogFileHelpers: Auto-saving content packages took 0.038
+[2023.09.07-23.32.32:602][401]LogEditorViewport: Clicking Background
+[2023.09.07-23.32.33:348][465]LogDerivedDataCache: C:/Users/chget/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.121 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 854 files in 1456 folders with total size 52 MiB.
+[2023.09.07-23.32.45:934][890]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2023.09.07-23.33.14:704][764]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.33.28:462][847]LogViewport: Scene viewport resized to 562x686, mode Windowed.
+[2023.09.07-23.33.35:219][194]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.09.07-23.34.05:265][833]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.07-23.34.05:409][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.09.07-23.34.05:482][833]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.34.05:691][835]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.34.06:136][859]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.34.06:147][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.34.06:147][859]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:34:06 AM)
+[2023.09.07-23.34.06:147][859]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.34.06:151][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003289s)
+[2023.09.07-23.34.06:151][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003327s)
+[2023.09.07-23.34.06:151][859]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.34.06:151][859]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.34.06:152][859]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.34.06:152][859]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2023.09.07-23.34.06:184][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.09.07-23.34.06:195][859]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.09.07-23.34.06:195][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.34.06:195][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.34.06:195][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.34.06:195][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.34.06:195][859]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.34.06:195][859]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.34.06:195][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.34.06:195][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.34.06:196][859]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.34.06:196][859]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.34.06:196][859]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.34.06:198][859]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.34.06:241][859]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.34.06:241][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.34.06:241][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.34.06:241][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.34.06:243][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.09.07-23.34.06:243][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.09.07-23.34.06:244][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.09.07-23.34.06:244][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.09.07-23.34.06:244][859]LogInit: FAudioDevice initialized with ID 12.
+[2023.09.07-23.34.06:244][859]LogAudio: Display: Audio Device (ID: 12) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.34.06:244][859]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.09.07-23.34.06:252][859]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.34.06:254][859]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.34.06
+[2023.09.07-23.34.06:254][859]LogWorld: Bringing up level for play took: 0.001894
+[2023.09.07-23.34.06:256][859]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.09.07-23.34.06:260][859]PIE: Server logged in
+[2023.09.07-23.34.06:260][859]PIE: Play in editor total start time 0.116 seconds.
+[2023.09.07-23.34.06:285][859]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.34.06:286][859]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.34.06:286][859]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.34.06:287][859]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.34.06:287][859]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.34.06:288][859]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.34.06:289][859]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:640][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.35.37:640][775]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.35.37:641][775]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.35.37:641][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.35.37:676][775]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.35.37:683][775]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.35.37:712][775]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.07-23.35.37:713][775]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.09.07-23.35.37:713][775]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.09.07-23.35.37:714][775]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.09.07-23.35.37:719][775]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.35.37:722][775]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.09.07-23.35.37:744][775]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:744][775]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:745][775]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:746][775]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:747][775]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:747][775]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:748][775]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.35.37:901][776]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.09.07-23.35.37:909][776]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.43.59:140][222]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.43.59:152][222]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.07-23.43.59:153][222]LogPlayLevel: [PlayLevel] Compiling Sprite_Character before play...
+[2023.09.07-23.43.59:332][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.09.07-23.43.59:337][222]LogPlayLevel: PlayLevel: Blueprint regeneration took 186 ms (1 blueprints)
+[2023.09.07-23.43.59:338][222]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:43:59 AM)
+[2023.09.07-23.43.59:338][222]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.43.59:340][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002026s)
+[2023.09.07-23.43.59:340][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002066s)
+[2023.09.07-23.43.59:340][222]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.43.59:340][222]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.43.59:340][222]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.43.59:341][222]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2023.09.07-23.43.59:370][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.09.07-23.43.59:371][222]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.09.07-23.43.59:371][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.43.59:371][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.43.59:371][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.43.59:371][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.43.59:371][222]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.43.59:371][222]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.43.59:371][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.43.59:371][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.43.59:371][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.43.59:371][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.43.59:371][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.43.59:373][222]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.43.59:414][222]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.43.59:415][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.43.59:415][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.43.59:415][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.43.59:416][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.09.07-23.43.59:416][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.09.07-23.43.59:417][222]LogInit: FAudioDevice initialized with ID 13.
+[2023.09.07-23.43.59:417][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.09.07-23.43.59:417][222]LogAudio: Display: Audio Device (ID: 13) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.43.59:417][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.09.07-23.43.59:417][222]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.09.07-23.43.59:424][222]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.43.59:426][222]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.43.59
+[2023.09.07-23.43.59:426][222]LogWorld: Bringing up level for play took: 0.001990
+[2023.09.07-23.43.59:429][222]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.09.07-23.43.59:432][222]PIE: Server logged in
+[2023.09.07-23.43.59:433][222]PIE: Play in editor total start time 0.281 seconds.
+[2023.09.07-23.43.59:440][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.43.59:440][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.43.59:440][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.43.59:441][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.43.59:442][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.43.59:442][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.43.59:443][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:051][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.44.32:051][266]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.44.32:051][266]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.44.32:052][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.44.32:090][266]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.44.32:097][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.44.32:124][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.44.32:124][266]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.09.07-23.44.32:124][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.09.07-23.44.32:126][266]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.09.07-23.44.32:133][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.09.07-23.44.32:156][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:156][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:157][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:157][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:158][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:158][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:159][266]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.44.32:317][267]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.09.07-23.44.32:329][267]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.46.36:910][525]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.09.07-23.46.36:964][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Sprite_Character" FILE="../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Content/Blueprint/Sprite_Character.uasset" SILENT=true
+[2023.09.07-23.46.37:005][525]LogSavePackage: Moving output files for package: /Game/Blueprint/Sprite_Character
+[2023.09.07-23.46.37:005][525]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Sprite_Character9141ACC44BD0612B88BE6792CFCE4DB6.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Content/Blueprint/Sprite_Character.uasset'
+[2023.09.07-23.46.37:012][525]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 377 ms)
+[2023.09.07-23.46.37:019][525]AssetCheck: New page: Asset Save: Sprite_Character
+[2023.09.07-23.46.37:019][525]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint/Sprite_Character.Sprite_Character
+[2023.09.07-23.46.37:716][558]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.07-23.46.37:726][558]LogBlueprint: Warning: [AssetLog] X:\Tools\Git\Repos\TEST\PROJECT_A\SideScroller\Content\Blueprint\Sprite_Character.uasset: [Compiler] Set isAttacking  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.09.07-23.46.37:854][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.09.07-23.46.37:926][558]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.46.38:212][560]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.46.39:192][606]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.46.39:204][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.46.39:204][606]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:46:39 AM)
+[2023.09.07-23.46.39:204][606]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.46.39:206][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002082s)
+[2023.09.07-23.46.39:206][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002116s)
+[2023.09.07-23.46.39:206][606]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.46.39:207][606]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.46.39:207][606]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.46.39:207][606]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2023.09.07-23.46.39:240][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.09.07-23.46.39:249][606]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.09.07-23.46.39:249][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.46.39:249][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.46.39:249][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.46.39:249][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.46.39:249][606]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.46.39:249][606]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.46.39:249][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.46.39:249][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.46.39:249][606]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.46.39:249][606]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.46.39:249][606]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.46.39:251][606]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.46.39:297][606]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.46.39:297][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.46.39:298][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.46.39:298][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.46.39:299][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.09.07-23.46.39:299][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.09.07-23.46.39:300][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.09.07-23.46.39:301][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.09.07-23.46.39:301][606]LogInit: FAudioDevice initialized with ID 14.
+[2023.09.07-23.46.39:301][606]LogAudio: Display: Audio Device (ID: 14) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.46.39:301][606]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.09.07-23.46.39:308][606]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.46.39:309][606]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.46.39
+[2023.09.07-23.46.39:309][606]LogWorld: Bringing up level for play took: 0.001376
+[2023.09.07-23.46.39:311][606]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.09.07-23.46.39:314][606]PIE: Server logged in
+[2023.09.07-23.46.39:314][606]PIE: Play in editor total start time 0.113 seconds.
+[2023.09.07-23.46.39:349][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.46.39:349][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.46.39:350][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.46.39:350][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.46.39:351][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.46.39:352][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.46.39:352][606]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:002][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.47.06:002][111]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.47.06:003][111]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.47.06:003][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.47.06:040][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.47.06:045][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.47.06:074][111]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.07-23.47.06:075][111]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.09.07-23.47.06:075][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.09.07-23.47.06:076][111]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.09.07-23.47.06:080][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.47.06:083][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.09.07-23.47.06:107][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:107][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:108][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:109][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:109][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:110][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:111][111]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.06:269][112]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.09.07-23.47.06:279][112]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.47.23:430][  5]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.07-23.47.23:552][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.09.07-23.47.23:618][  5]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.23:882][  7]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.47.24:793][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.47.24:805][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.47.24:805][ 48]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:47:24 AM)
+[2023.09.07-23.47.24:805][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.47.24:808][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002786s)
+[2023.09.07-23.47.24:808][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002823s)
+[2023.09.07-23.47.24:808][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.47.24:808][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.47.24:808][ 48]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.47.24:809][ 48]LogPlayLevel: PIE: World Init took: (0.001181s)
+[2023.09.07-23.47.24:839][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.09.07-23.47.24:848][ 48]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.09.07-23.47.24:848][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.47.24:848][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.47.24:848][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.47.24:848][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.47.24:848][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.47.24:848][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.47.24:848][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.47.24:848][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.47.24:848][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.47.24:848][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.47.24:848][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.47.24:850][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.47.24:912][ 48]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.47.24:913][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.47.24:913][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.47.24:913][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.47.24:914][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.09.07-23.47.24:914][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.09.07-23.47.24:916][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.09.07-23.47.24:916][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.09.07-23.47.24:916][ 48]LogInit: FAudioDevice initialized with ID 15.
+[2023.09.07-23.47.24:916][ 48]LogAudio: Display: Audio Device (ID: 15) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.47.24:916][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.09.07-23.47.24:925][ 48]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.47.24:927][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.47.24
+[2023.09.07-23.47.24:928][ 48]LogWorld: Bringing up level for play took: 0.002618
+[2023.09.07-23.47.24:930][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.09.07-23.47.24:934][ 48]PIE: Server logged in
+[2023.09.07-23.47.24:935][ 48]PIE: Play in editor total start time 0.133 seconds.
+[2023.09.07-23.47.24:975][ 48]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.24:976][ 48]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.24:976][ 48]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.24:977][ 48]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.24:977][ 48]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.24:978][ 48]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.47.24:979][ 48]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:543][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.49.11:543][373]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.49.11:543][373]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.49.11:543][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.49.11:578][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.49.11:583][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.49.11:611][373]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.07-23.49.11:612][373]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.09.07-23.49.11:612][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.09.07-23.49.11:613][373]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.09.07-23.49.11:618][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.49.11:621][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.09.07-23.49.11:643][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:643][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:644][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:644][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:645][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:645][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:646][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.49.11:797][374]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.09.07-23.49.11:808][374]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.50.12:134][585]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.50.12:142][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.50.12:142][585]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:50:12 AM)
+[2023.09.07-23.50.12:142][585]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.50.12:145][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002166s)
+[2023.09.07-23.50.12:145][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002209s)
+[2023.09.07-23.50.12:145][585]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.50.12:145][585]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.50.12:145][585]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.50.12:145][585]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2023.09.07-23.50.12:178][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.09.07-23.50.12:182][585]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.09.07-23.50.12:182][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.50.12:182][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.50.12:182][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.50.12:182][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.50.12:182][585]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.50.12:182][585]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.50.12:182][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.50.12:182][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.50.12:183][585]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.50.12:183][585]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.50.12:183][585]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.50.12:184][585]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.50.12:227][585]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.50.12:228][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.50.12:228][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.50.12:228][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.50.12:229][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.09.07-23.50.12:229][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.09.07-23.50.12:231][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.09.07-23.50.12:231][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.09.07-23.50.12:231][585]LogInit: FAudioDevice initialized with ID 16.
+[2023.09.07-23.50.12:231][585]LogAudio: Display: Audio Device (ID: 16) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.50.12:231][585]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.09.07-23.50.12:238][585]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.50.12:240][585]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.50.12
+[2023.09.07-23.50.12:240][585]LogWorld: Bringing up level for play took: 0.001555
+[2023.09.07-23.50.12:242][585]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.09.07-23.50.12:244][585]PIE: Server logged in
+[2023.09.07-23.50.12:245][585]PIE: Play in editor total start time 0.103 seconds.
+[2023.09.07-23.50.12:280][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.12:280][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.12:280][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.12:281][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.12:281][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.12:282][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.12:283][585]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.46:872][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.50.46:872][166]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.50.46:873][166]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.50.46:873][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.50.46:911][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.50.46:917][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.50.46:945][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.50.46:945][166]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.09.07-23.50.46:945][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.09.07-23.50.46:946][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.09.07-23.50.46:953][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.09.07-23.50.46:977][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.46:977][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.46:978][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.46:978][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.46:979][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.46:979][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.46:980][166]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.50.47:130][167]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.09.07-23.50.47:143][167]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.52.03:513][169]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.07-23.52.03:637][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.09.07-23.52.03:698][169]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.52.03:926][171]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.52.04:929][223]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.52.04:940][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.52.04:940][223]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:52:04 AM)
+[2023.09.07-23.52.04:940][223]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.52.04:942][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001994s)
+[2023.09.07-23.52.04:942][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002026s)
+[2023.09.07-23.52.04:942][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.52.04:942][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.52.04:942][223]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.52.04:943][223]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2023.09.07-23.52.04:975][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.09.07-23.52.04:983][223]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.09.07-23.52.04:983][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.52.04:983][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.52.04:983][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.52.04:983][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.52.04:983][223]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.52.04:983][223]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.52.04:983][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.52.04:983][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.52.04:984][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.52.04:984][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.52.04:984][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.52.04:985][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.52.05:027][223]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.52.05:028][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.52.05:028][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.52.05:028][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.52.05:029][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.09.07-23.52.05:029][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.09.07-23.52.05:031][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.09.07-23.52.05:031][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.09.07-23.52.05:031][223]LogInit: FAudioDevice initialized with ID 17.
+[2023.09.07-23.52.05:031][223]LogAudio: Display: Audio Device (ID: 17) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.52.05:031][223]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.07-23.52.05:038][223]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.52.05:040][223]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.52.05
+[2023.09.07-23.52.05:040][223]LogWorld: Bringing up level for play took: 0.001516
+[2023.09.07-23.52.05:042][223]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.09.07-23.52.05:044][223]PIE: Server logged in
+[2023.09.07-23.52.05:045][223]PIE: Play in editor total start time 0.108 seconds.
+[2023.09.07-23.52.05:081][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.52.05:081][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.52.05:082][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.52.05:082][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.52.05:083][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.52.05:083][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.52.05:083][223]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:323][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.53.17:323][397]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.53.17:323][397]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.53.17:324][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.53.17:367][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.53.17:379][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.53.17:421][397]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.07-23.53.17:421][397]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.09.07-23.53.17:421][397]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.07-23.53.17:424][397]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.09.07-23.53.17:432][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.53.17:437][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.09.07-23.53.17:496][397]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:496][397]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:497][397]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:497][397]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:498][397]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:498][397]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:499][397]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.17:551][398]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.09.07-23.53.17:564][398]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.53.24:939][ 25]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.53.24:948][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.53.24:948][ 25]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:53:24 AM)
+[2023.09.07-23.53.24:973][ 25]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.53.24:975][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002305s)
+[2023.09.07-23.53.24:975][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002352s)
+[2023.09.07-23.53.24:975][ 25]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.53.24:975][ 25]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.53.24:976][ 25]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.53.24:976][ 25]LogPlayLevel: PIE: World Init took: (0.001018s)
+[2023.09.07-23.53.25:008][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.09.07-23.53.25:011][ 25]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.09.07-23.53.25:011][ 25]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.53.25:011][ 25]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.53.25:011][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.53.25:011][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.53.25:011][ 25]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.53.25:011][ 25]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.53.25:011][ 25]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.53.25:011][ 25]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.53.25:012][ 25]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.53.25:012][ 25]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.53.25:012][ 25]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.53.25:014][ 25]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.53.25:054][ 25]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.53.25:054][ 25]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.53.25:054][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.53.25:054][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.53.25:054][ 25]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.09.07-23.53.25:054][ 25]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.09.07-23.53.25:056][ 25]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.09.07-23.53.25:056][ 25]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.09.07-23.53.25:057][ 25]LogInit: FAudioDevice initialized with ID 18.
+[2023.09.07-23.53.25:057][ 25]LogAudio: Display: Audio Device (ID: 18) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.53.25:057][ 25]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.09.07-23.53.25:060][ 25]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.53.25:062][ 25]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.53.25
+[2023.09.07-23.53.25:062][ 25]LogWorld: Bringing up level for play took: 0.001778
+[2023.09.07-23.53.25:064][ 25]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.09.07-23.53.25:067][ 25]PIE: Server logged in
+[2023.09.07-23.53.25:068][ 25]PIE: Play in editor total start time 0.12 seconds.
+[2023.09.07-23.53.25:104][ 25]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.25:104][ 25]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.25:105][ 25]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.25:105][ 25]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.25:106][ 25]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.25:106][ 25]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.25:107][ 25]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:353][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.53.30:353][446]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.53.30:353][446]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.53.30:353][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.53.30:396][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.53.30:402][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.53.30:430][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.53.30:430][446]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.09.07-23.53.30:430][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.07-23.53.30:432][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.09.07-23.53.30:439][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.09.07-23.53.30:456][446]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:457][446]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:457][446]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:458][446]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:458][446]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:459][446]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:459][446]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.53.30:602][447]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.09.07-23.53.30:611][447]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.54.13:729][602]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.54.13:739][602]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.09.07-23.54.13:740][602]LogPlayLevel: [PlayLevel] Compiling Sprite_Character before play...
+[2023.09.07-23.54.13:910][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.09.07-23.54.13:916][602]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (1 blueprints)
+[2023.09.07-23.54.13:916][602]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:54:13 AM)
+[2023.09.07-23.54.13:917][602]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.54.13:919][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002065s)
+[2023.09.07-23.54.13:919][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002107s)
+[2023.09.07-23.54.13:919][602]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.54.13:919][602]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.54.13:919][602]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.54.13:919][602]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2023.09.07-23.54.13:948][602]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.09.07-23.54.13:949][602]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.09.07-23.54.13:949][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.54.13:949][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.54.13:949][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.54.13:949][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.54.13:949][602]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.54.13:949][602]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.54.13:949][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.54.13:949][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.54.13:950][602]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.54.13:950][602]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.54.13:950][602]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.54.13:952][602]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.54.13:994][602]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.54.13:994][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.54.13:994][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.54.13:994][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.54.13:995][602]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.09.07-23.54.13:995][602]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.09.07-23.54.13:997][602]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.09.07-23.54.13:997][602]LogInit: FAudioDevice initialized with ID 19.
+[2023.09.07-23.54.13:997][602]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.09.07-23.54.13:997][602]LogAudio: Display: Audio Device (ID: 19) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.54.13:997][602]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.07-23.54.14:004][602]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.54.14:005][602]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.54.14
+[2023.09.07-23.54.14:006][602]LogWorld: Bringing up level for play took: 0.001514
+[2023.09.07-23.54.14:008][602]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.09.07-23.54.14:010][602]PIE: Server logged in
+[2023.09.07-23.54.14:011][602]PIE: Play in editor total start time 0.272 seconds.
+[2023.09.07-23.54.14:017][602]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.14:017][602]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.14:018][602]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.14:018][602]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.14:019][602]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.14:019][602]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.14:020][602]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:333][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.54.20:333][244]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.54.20:333][244]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.54.20:333][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.54.20:374][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.54.20:379][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.54.20:409][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.54.20:409][244]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.09.07-23.54.20:409][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.07-23.54.20:411][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.09.07-23.54.20:418][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.09.07-23.54.20:454][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:455][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:455][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:455][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:456][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:456][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:457][244]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.54.20:507][245]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.09.07-23.54.20:510][245]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.55.53:190][913]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.07-23.55.53:314][913]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.09.07-23.55.53:371][913]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.55.53:604][915]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.55.54:261][949]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.55.54:274][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.55.54:274][949]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:55:54 AM)
+[2023.09.07-23.55.54:274][949]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.55.54:277][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002416s)
+[2023.09.07-23.55.54:277][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002461s)
+[2023.09.07-23.55.54:277][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.55.54:277][949]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.55.54:277][949]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.55.54:278][949]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2023.09.07-23.55.54:310][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.09.07-23.55.54:317][949]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.09.07-23.55.54:317][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.55.54:317][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.55.54:317][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.55.54:317][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.55.54:317][949]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.55.54:317][949]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.55.54:317][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.55.54:317][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.55.54:318][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.55.54:318][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.55.54:318][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.55.54:320][949]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.55.54:365][949]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.55.54:365][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.55.54:365][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.55.54:365][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.55.54:366][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.09.07-23.55.54:366][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.09.07-23.55.54:368][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.09.07-23.55.54:368][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.09.07-23.55.54:368][949]LogInit: FAudioDevice initialized with ID 20.
+[2023.09.07-23.55.54:368][949]LogAudio: Display: Audio Device (ID: 20) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.55.54:368][949]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.07-23.55.54:374][949]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.55.54:376][949]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.55.54
+[2023.09.07-23.55.54:376][949]LogWorld: Bringing up level for play took: 0.001802
+[2023.09.07-23.55.54:378][949]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.09.07-23.55.54:380][949]PIE: Server logged in
+[2023.09.07-23.55.54:381][949]PIE: Play in editor total start time 0.11 seconds.
+[2023.09.07-23.55.54:416][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.55.54:417][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.55.54:417][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.55.54:418][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.55.54:418][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.55.54:419][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.55.54:419][949]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:043][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.56.00:043][593]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.56.00:043][593]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.56.00:043][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.56.00:085][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.56.00:091][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.56.00:119][593]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.07-23.56.00:119][593]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.09.07-23.56.00:119][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.07-23.56.00:121][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.09.07-23.56.00:125][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.56.00:128][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.09.07-23.56.00:166][593]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:166][593]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:167][593]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:167][593]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:168][593]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:168][593]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:169][593]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.00:220][594]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.09.07-23.56.00:238][594]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.56.09:289][ 20]LogEditorTransaction: Undo Change Bool Pin Value
+[2023.09.07-23.56.09:407][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.09:407][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.09:408][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.09:408][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.09:409][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.09:409][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.09:410][ 20]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:021][ 36]LogEditorTransaction: Undo Change Bool Pin Value
+[2023.09.07-23.56.10:125][ 36]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:126][ 36]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:127][ 36]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:128][ 36]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:128][ 36]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:129][ 36]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:129][ 36]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:594][ 55]LogEditorTransaction: Undo Break Pin Links
+[2023.09.07-23.56.10:693][ 55]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:694][ 55]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:695][ 55]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:696][ 55]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:696][ 55]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:697][ 55]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.10:697][ 55]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:138][ 73]LogEditorTransaction: Undo Create Pin Link
+[2023.09.07-23.56.11:243][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:243][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:244][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:245][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:246][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:246][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:247][ 73]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:746][ 94]LogEditorTransaction: Undo Create Pin Link
+[2023.09.07-23.56.11:846][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:846][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:847][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:848][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:848][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:849][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.11:849][ 94]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:256][110]LogEditorTransaction: Undo Create Pin Link
+[2023.09.07-23.56.12:356][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:356][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:357][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:358][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:358][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:359][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:360][110]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:770][126]LogEditorTransaction: Undo Move Node
+[2023.09.07-23.56.12:871][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:872][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:872][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:873][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:873][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:874][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.12:875][126]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:243][139]LogEditorTransaction: Undo Create Pin Link
+[2023.09.07-23.56.13:395][139]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:395][139]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:396][139]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:397][139]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:398][139]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:399][139]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:400][139]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:779][144]LogEditorTransaction: Undo Move Node
+[2023.09.07-23.56.13:883][144]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:883][144]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:884][144]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:884][144]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:885][144]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:885][144]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.13:885][144]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:370][165]LogEditorTransaction: Undo Delete current selection
+[2023.09.07-23.56.14:483][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:483][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:484][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:484][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:485][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:485][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:486][165]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.14:976][186]LogEditorTransaction: Undo Move Node
+[2023.09.07-23.56.15:075][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.15:075][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.15:076][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.15:077][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.15:078][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.15:078][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.15:079][186]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.17:697][317]LogEditorTransaction: Undo Paste clipboard contents
+[2023.09.07-23.56.17:833][317]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.17:834][317]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.17:834][317]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.17:835][317]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.17:835][317]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.17:836][317]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.17:836][317]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.18:588][340]LogEditorTransaction: Redo Paste clipboard contents
+[2023.09.07-23.56.18:691][340]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.18:692][340]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.18:693][340]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.18:693][340]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.18:694][340]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.18:695][340]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.18:695][340]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.19:618][384]LogEditorTransaction: Undo Paste clipboard contents
+[2023.09.07-23.56.19:719][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.19:720][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.19:720][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.19:721][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.19:722][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.19:722][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.56.19:723][384]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.16:513][306]BlueprintLog: New page: Compile Sprite_Character
+[2023.09.07-23.58.16:645][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.09.07-23.58.16:702][306]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.16:935][308]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.58.17:573][341]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.58.17:583][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.58.17:583][341]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:58:17 AM)
+[2023.09.07-23.58.17:604][341]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.58.17:606][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002575s)
+[2023.09.07-23.58.17:606][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002626s)
+[2023.09.07-23.58.17:607][341]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.58.17:607][341]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.58.17:607][341]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.58.17:607][341]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2023.09.07-23.58.17:638][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.09.07-23.58.17:645][341]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.09.07-23.58.17:646][341]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.58.17:646][341]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.58.17:646][341]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.58.17:646][341]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.58.17:646][341]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.58.17:646][341]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.58.17:646][341]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.58.17:646][341]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.58.17:646][341]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.58.17:646][341]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.58.17:646][341]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.58.17:648][341]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.58.17:689][341]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.58.17:690][341]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.58.17:690][341]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.58.17:690][341]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.58.17:690][341]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.09.07-23.58.17:690][341]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.09.07-23.58.17:693][341]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.09.07-23.58.17:693][341]LogInit: FAudioDevice initialized with ID 21.
+[2023.09.07-23.58.17:693][341]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.09.07-23.58.17:693][341]LogAudio: Display: Audio Device (ID: 21) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.58.17:693][341]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.09.07-23.58.17:700][341]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.58.17:702][341]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.58.17
+[2023.09.07-23.58.17:702][341]LogWorld: Bringing up level for play took: 0.001528
+[2023.09.07-23.58.17:704][341]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.09.07-23.58.17:706][341]PIE: Server logged in
+[2023.09.07-23.58.17:707][341]PIE: Play in editor total start time 0.126 seconds.
+[2023.09.07-23.58.17:742][341]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.17:743][341]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.17:743][341]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.17:744][341]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.17:744][341]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.17:745][341]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.17:745][341]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.28:994][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.58.28:994][583]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.58.28:994][583]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.58.28:995][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.58.29:035][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.58.29:041][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.58.29:069][583]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.07-23.58.29:069][583]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.09.07-23.58.29:069][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.09.07-23.58.29:071][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.09.07-23.58.29:075][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.58.29:078][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.09.07-23.58.29:115][583]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.29:116][583]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.29:116][583]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.29:117][583]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.29:117][583]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.29:118][583]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.29:118][583]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.29:170][584]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.09.07-23.58.29:173][584]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.58.31:442][781]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.07-23.58.31:451][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.07-23.58.31:451][781]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 3:58:31 AM)
+[2023.09.07-23.58.31:451][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.58.31:453][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002179s)
+[2023.09.07-23.58.31:454][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002218s)
+[2023.09.07-23.58.31:454][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.07-23.58.31:454][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.07-23.58.31:454][781]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.07-23.58.31:454][781]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2023.09.07-23.58.31:484][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.09.07-23.58.31:487][781]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.09.07-23.58.31:487][781]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.07-23.58.31:487][781]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.07-23.58.31:487][781]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.07-23.58.31:487][781]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.07-23.58.31:487][781]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.07-23.58.31:487][781]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.07-23.58.31:487][781]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.07-23.58.31:487][781]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.07-23.58.31:488][781]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.07-23.58.31:488][781]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.07-23.58.31:488][781]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.07-23.58.31:490][781]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.07-23.58.31:530][781]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.07-23.58.31:531][781]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.07-23.58.31:531][781]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.07-23.58.31:531][781]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.07-23.58.31:532][781]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.09.07-23.58.31:532][781]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.09.07-23.58.31:534][781]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.09.07-23.58.31:534][781]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.09.07-23.58.31:534][781]LogInit: FAudioDevice initialized with ID 22.
+[2023.09.07-23.58.31:534][781]LogAudio: Display: Audio Device (ID: 22) registered with world 'Map_SideScroller2D'.
+[2023.09.07-23.58.31:534][781]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.09.07-23.58.31:537][781]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.07-23.58.31:538][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-01.58.31
+[2023.09.07-23.58.31:538][781]LogWorld: Bringing up level for play took: 0.001207
+[2023.09.07-23.58.31:540][781]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.09.07-23.58.31:542][781]PIE: Server logged in
+[2023.09.07-23.58.31:543][781]PIE: Play in editor total start time 0.092 seconds.
+[2023.09.07-23.58.31:578][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.31:578][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.31:578][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.31:579][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.31:579][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.31:580][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.31:580][781]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.37:652][509]LogBlueprintUserMessages: [Sprite_Character_C_1] 50.0
+[2023.09.07-23.58.39:584][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.58.39:584][736]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.07-23.58.39:584][736]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.07-23.58.39:585][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.58.39:589][736]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.07-23.58.39:596][736]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.07-23.58.39:625][736]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.07-23.58.39:625][736]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.09.07-23.58.39:625][736]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.09.07-23.58.39:627][736]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.09.07-23.58.39:634][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.09.07-23.58.39:667][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.39:667][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.39:668][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.39:669][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.39:669][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.39:670][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.39:670][736]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.07-23.58.39:723][737]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.09.07-23.58.39:727][737]LogViewport: Scene viewport resized to 482x284, mode Windowed.
+[2023.09.07-23.59.06:601][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.09.07-23.59.06:611][990]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Map_SideScroller2D_Auto3
+[2023.09.07-23.59.06:611][990]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Map_SideScroller2D_Auto3F91E41A24F311430EC43CA8EDB842877.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Autosaves/Game/Maps/Map_SideScroller2D_Auto3.umap'
+[2023.09.07-23.59.06:620][990]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Map_SideScroller2D' took 0.049
+[2023.09.07-23.59.06:620][990]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
+[2023.09.07-23.59.06:621][990]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/Sprite_Character] ([2] browsable assets)...
+[2023.09.07-23.59.06:621][990]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Sprite_Character]
+[2023.09.07-23.59.06:660][990]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint/Sprite_Character_Auto3
+[2023.09.07-23.59.06:660][990]LogSavePackage: Moving '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Sprite_Character_Auto30F6C075E47BB9A550398C489E5E33494.tmp' to '../../../../Git/Repos/TEST/PROJECT_A/SideScroller/Saved/Autosaves/Game/Blueprint/Sprite_Character_Auto3.uasset'
+[2023.09.07-23.59.06:662][990]LogFileHelpers: Auto-saving content packages took 0.041
+[2023.09.08-00.01.12:531][427]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.09.08-00.01.12:539][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.09.08-00.01.12:540][427]PIE: New page: PIE session: Map_SideScroller2D (Sep 8, 2023, 4:01:12 AM)
+[2023.09.08-00.01.12:540][427]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.08-00.01.12:542][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002315s)
+[2023.09.08-00.01.12:542][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002357s)
+[2023.09.08-00.01.12:542][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.09.08-00.01.12:542][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.09.08-00.01.12:543][427]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.09.08-00.01.12:543][427]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2023.09.08-00.01.12:576][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.09.08-00.01.12:579][427]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.09.08-00.01.12:579][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.09.08-00.01.12:579][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.09.08-00.01.12:579][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.09.08-00.01.12:579][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.09.08-00.01.12:579][427]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.09.08-00.01.12:579][427]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.09.08-00.01.12:579][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.09.08-00.01.12:579][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.09.08-00.01.12:579][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.09.08-00.01.12:579][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.09.08-00.01.12:579][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.09.08-00.01.12:581][427]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.09.08-00.01.12:622][427]LogAudioMixer: Display: Using Audio Hardware Device Speakers (3- HyperX QuadCast S)
+[2023.09.08-00.01.12:622][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.09.08-00.01.12:623][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.09.08-00.01.12:623][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.09.08-00.01.12:623][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.09.08-00.01.12:623][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.09.08-00.01.12:626][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.09.08-00.01.12:626][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.09.08-00.01.12:626][427]LogInit: FAudioDevice initialized with ID 23.
+[2023.09.08-00.01.12:626][427]LogAudio: Display: Audio Device (ID: 23) registered with world 'Map_SideScroller2D'.
+[2023.09.08-00.01.12:626][427]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.09.08-00.01.12:633][427]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.09.08-00.01.12:634][427]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.09.08-02.01.12
+[2023.09.08-00.01.12:635][427]LogWorld: Bringing up level for play took: 0.001810
+[2023.09.08-00.01.12:637][427]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.09.08-00.01.12:640][427]PIE: Server logged in
+[2023.09.08-00.01.12:641][427]PIE: Play in editor total start time 0.102 seconds.
+[2023.09.08-00.01.12:683][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.12:684][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.12:684][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.12:685][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.12:685][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.12:686][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.12:686][427]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.39:975][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.08-00.01.39:975][510]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.09.08-00.01.39:975][510]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.09.08-00.01.39:975][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.08-00.01.40:015][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.09.08-00.01.40:021][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.09.08-00.01.40:050][510]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.09.08-00.01.40:050][510]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.09.08-00.01.40:050][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.09.08-00.01.40:052][510]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.09.08-00.01.40:055][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.09.08-00.01.40:058][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.09.08-00.01.40:096][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.40:097][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.40:097][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.40:098][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.40:098][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.40:099][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.40:099][510]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.09.08-00.01.40:147][511]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.09.08-00.01.40:150][511]LogViewport: Scene viewport resized to 482x284, mode Windowed.
