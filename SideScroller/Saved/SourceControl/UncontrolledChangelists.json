@@ -5,8 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"X:/Tools/Git/Repos/TEST/PROJECT_A/SideScroller/Content/Maps/Map_SideScroller2D.umap",
-				"X:/Tools/Git/Repos/TEST/PROJECT_A/SideScroller/Content/Blueprint/Sprite_Character.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Maps/Map_SideScroller2D.umap",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/cherry/cherry-7.uasset",
@@ -149,10 +147,6 @@
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/StarterContent/Particles/P_Steam_Lit.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/InfinityBladeEffects/Effects/FX_Combat_Base/WeaponCombo/P_Combo_Finish_Untyped_01.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/InfinityBladeEffects/Effects/FX_Combat_Base/WeaponCombo/P_ComboFinish_Tap_01.uasset",
-<<<<<<< HEAD
-=======
-				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Idle_Animation.uasset",
->>>>>>> 3b4a856ef6b9eb5714f89a50c8c0fbcebc0d7a33
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Blueprint/Kratos_Boss.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Blueprint/Soundeffects/male-scream-in-fear-123079.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Hit_Animation/Kratos_Hit_Animation_Idle.uasset",
@@ -181,7 +175,6 @@
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Hit_Animation/Kratos_Hit_Animation_Idle__1_Sprite.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/player/hurt/player-hurt-1_Sprite.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/player/hurt/player-hurt-2_Sprite.uasset",
-<<<<<<< HEAD
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/InfinityBladeEffects/Effects/FX_Archive/P_Teleport_Monster.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Pull_Attack_Animation/Kratos_Pull_Attack_Left.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Pull_Attack_Animation/Kratos_Pull_Attack_Left_5_Sprite.uasset",
@@ -221,8 +214,6 @@
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Blueprint/Charakter_Health_2.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Death_Animation/Kratos_Death_Animation_2_0.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Idle_Animation.uasset",
-=======
->>>>>>> 3b4a856ef6b9eb5714f89a50c8c0fbcebc0d7a33
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Kratos_Idle_Animation.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Kratos_Idle_Animation2.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/Mobs/Boss/Kratos/Kratos_Idle_Animation1.uasset",
