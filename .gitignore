@@ -80,3 +80,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 >>>>>>> 3b4a856ef6b9eb5714f89a50c8c0fbcebc0d7a33
+*.log
