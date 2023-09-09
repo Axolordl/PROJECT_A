@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< Updated upstream
+=======
+				"C:/Users/Reali/Documents/GitHub/PROJECT_A/SideScroller/Content/Blueprint/Sprite_Character.uasset",
+				"C:/Users/Reali/Documents/GitHub/PROJECT_A/SideScroller/Content/Maps/Map_SideScroller2D.umap",
+				"X:/Tools/Git/Repos/TEST/PROJECT_A/SideScroller/Content/Blueprint/Sprite_Character.uasset",
+				"X:/Tools/Git/Repos/TEST/PROJECT_A/SideScroller/Content/Maps/Map_SideScroller2D.umap",
+>>>>>>> Stashed changes
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/StarterContent/Particles/P_Ambient_Dust.uasset",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Maps/Map_SideScroller2D.umap",
 				"C:/Users/Reali/Documents/Unreal Projects/SideScroller/Content/Sunny_Asset_Pack/sprites/cherry/cherry-7.uasset",
