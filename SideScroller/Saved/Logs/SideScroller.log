@@ -2137,3 +2137,1516 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.29-14.13.29:581][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 606 ms)
 [2023.12.29-14.13.29:587][ 37]AssetCheck: New page: Asset Save: Map_SideScroller2D
 [2023.12.29-14.13.29:587][ 37]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_SideScroller2D.Map_SideScroller2D
+[2023.12.29-14.14.27:225][421]LogDebuggerCommands: Repeating last play command: Simulate
+[2023.12.29-14.14.27:243][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.14.27:244][421]PIE: New page: SIE session: Map_SideScroller2D (29.12.2023, 16:14:27)
+[2023.12.29-14.14.27:244][421]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.14.27:247][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002957s)
+[2023.12.29-14.14.27:247][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002993s)
+[2023.12.29-14.14.27:247][421]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.14.27:247][421]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.14.27:247][421]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.14.27:247][421]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2023.12.29-14.14.27:271][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.12.29-14.14.27:277][421]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.12.29-14.14.27:277][421]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.14.27:277][421]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.14.27:277][421]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.14.27:277][421]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.14.27:277][421]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.14.27:277][421]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.14.27:277][421]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.14.27:277][421]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.14.27:278][421]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.14.27:278][421]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.14.27:278][421]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.14.27:280][421]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.14.27:313][421]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.14.27:313][421]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.14.27:313][421]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.14.27:313][421]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.14.27:314][421]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.12.29-14.14.27:314][421]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2023.12.29-14.14.27:316][421]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.12.29-14.14.27:316][421]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.12.29-14.14.27:316][421]LogInit: FAudioDevice initialized with ID 12.
+[2023.12.29-14.14.27:316][421]LogAudio: Display: Audio Device (ID: 12) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.14.27:316][421]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.12.29-14.14.27:320][421]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.14.27:324][421]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.14.27
+[2023.12.29-14.14.27:324][421]LogWorld: Bringing up level for play took: 0.004663
+[2023.12.29-14.14.27:327][421]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.12.29-14.14.27:329][421]PIE: Server logged in
+[2023.12.29-14.14.27:330][421]PIE: Play in editor total start time 0,09 seconds.
+[2023.12.29-14.14.27:411][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:411][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:411][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:412][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:412][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:413][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:413][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:414][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:415][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:415][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:416][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:416][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:416][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:417][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:417][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:418][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:418][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:418][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:419][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:419][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:420][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:420][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:421][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.27:423][421]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:579][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.14.33:579][834]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.14.33:580][834]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.14.33:580][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.14.33:585][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.14.33:590][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.14.33:613][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.14.33:613][834]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.12.29-14.14.33:613][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.12.29-14.14.33:615][834]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.12.29-14.14.33:621][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.29-14.14.33:647][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:648][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:648][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:649][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:649][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:649][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:650][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:650][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:651][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:651][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:651][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:651][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:651][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:652][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:653][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:653][834]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.33:679][835]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.12.29-14.14.48:864][ 86]LogSlate: Window 'Details' being destroyed
+[2023.12.29-14.14.48:873][ 86]LogSlate: Window 'Details' being destroyed
+[2023.12.29-14.14.52:898][382]Cmd: EDIT COPY
+[2023.12.29-14.14.53:427][417]Cmd: EDIT PASTE
+[2023.12.29-14.14.53:503][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:503][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:504][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:505][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:505][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:506][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:506][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:507][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:507][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:508][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:508][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:509][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:509][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:509][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:510][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:510][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.14.53:511][417]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:650][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.15.27:650][335]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:15:27)
+[2023.12.29-14.15.27:673][335]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.15.27:677][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003090s)
+[2023.12.29-14.15.27:677][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003140s)
+[2023.12.29-14.15.27:677][335]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.15.27:677][335]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.15.27:677][335]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.15.27:678][335]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2023.12.29-14.15.27:700][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.12.29-14.15.27:703][335]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.12.29-14.15.27:703][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.15.27:703][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.15.27:703][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.15.27:703][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.15.27:703][335]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.15.27:703][335]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.15.27:703][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.15.27:703][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.15.27:704][335]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.15.27:704][335]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.15.27:704][335]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.15.27:706][335]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.15.27:735][335]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.15.27:735][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.15.27:735][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.15.27:735][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.15.27:736][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.12.29-14.15.27:736][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=13
+[2023.12.29-14.15.27:738][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.12.29-14.15.27:738][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.12.29-14.15.27:738][335]LogInit: FAudioDevice initialized with ID 13.
+[2023.12.29-14.15.27:738][335]LogAudio: Display: Audio Device (ID: 13) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.15.27:738][335]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.12.29-14.15.27:741][335]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.15.27:744][335]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.15.27
+[2023.12.29-14.15.27:745][335]LogWorld: Bringing up level for play took: 0.004258
+[2023.12.29-14.15.27:747][335]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.12.29-14.15.27:750][335]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.15.27:750][335]PIE: Server logged in
+[2023.12.29-14.15.27:751][335]PIE: Play in editor total start time 0,106 seconds.
+[2023.12.29-14.15.27:771][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:771][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:772][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:773][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:773][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:773][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:774][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:774][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:775][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:775][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:775][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:776][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:776][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:777][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:777][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:778][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:778][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:779][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:779][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:779][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:780][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:780][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.27:780][335]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:017][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.15.37:017][196]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.15.37:017][196]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.15.37:017][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.15.37:023][196]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.15.37:029][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.15.37:051][196]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.29-14.15.37:051][196]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.12.29-14.15.37:051][196]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.12.29-14.15.37:053][196]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.12.29-14.15.37:058][196]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.15.37:061][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.29-14.15.37:103][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:104][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:105][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:105][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:105][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:106][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:106][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:107][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:107][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:108][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:108][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:108][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:109][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:109][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:110][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:110][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:110][196]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.37:166][197]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.12.29-14.15.38:735][337]Cmd: EDIT COPY
+[2023.12.29-14.15.39:157][373]Cmd: EDIT PASTE
+[2023.12.29-14.15.39:234][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:234][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:235][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:236][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:236][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:237][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:237][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:237][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:238][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:238][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:238][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:239][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:239][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:240][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:240][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:240][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:241][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.39:241][373]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:181][741]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.29-14.15.55:200][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.15.55:200][741]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:15:55)
+[2023.12.29-14.15.55:233][741]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.15.55:236][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002989s)
+[2023.12.29-14.15.55:237][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003038s)
+[2023.12.29-14.15.55:237][741]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.15.55:237][741]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.15.55:237][741]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.15.55:237][741]LogPlayLevel: PIE: World Init took: (0.000861s)
+[2023.12.29-14.15.55:261][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.12.29-14.15.55:264][741]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.12.29-14.15.55:264][741]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.15.55:264][741]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.15.55:264][741]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.15.55:264][741]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.15.55:264][741]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.15.55:264][741]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.15.55:264][741]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.15.55:264][741]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.15.55:265][741]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.15.55:265][741]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.15.55:265][741]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.15.55:267][741]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.15.55:301][741]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.15.55:302][741]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.15.55:302][741]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.15.55:302][741]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.15.55:302][741]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.12.29-14.15.55:302][741]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=14
+[2023.12.29-14.15.55:306][741]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.12.29-14.15.55:306][741]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.12.29-14.15.55:306][741]LogInit: FAudioDevice initialized with ID 14.
+[2023.12.29-14.15.55:306][741]LogAudio: Display: Audio Device (ID: 14) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.15.55:306][741]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.12.29-14.15.55:309][741]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.15.55:314][741]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.15.55
+[2023.12.29-14.15.55:314][741]LogWorld: Bringing up level for play took: 0.004859
+[2023.12.29-14.15.55:317][741]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.12.29-14.15.55:321][741]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.15.55:321][741]PIE: Server logged in
+[2023.12.29-14.15.55:322][741]PIE: Play in editor total start time 0,125 seconds.
+[2023.12.29-14.15.55:339][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:340][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:341][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:341][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:342][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:342][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:342][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:343][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:343][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:344][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:344][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:345][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:345][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:346][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:346][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:347][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:347][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:347][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:348][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:348][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:349][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:349][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.55:349][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:408][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.15.59:408][117]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.15.59:408][117]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.15.59:408][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.15.59:413][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.15.59:420][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.15.59:442][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.15.59:443][117]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.12.29-14.15.59:443][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.12.29-14.15.59:445][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.12.29-14.15.59:451][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.12.29-14.15.59:497][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:498][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:498][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:499][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:499][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:500][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:500][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:501][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:501][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:501][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:502][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:502][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:503][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:503][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:503][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:504][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:504][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:504][117]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.15.59:561][118]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.12.29-14.16.02:745][405]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.29-14.16.02:765][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.16.02:765][405]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:16:02)
+[2023.12.29-14.16.02:766][405]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.02:769][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003177s)
+[2023.12.29-14.16.02:769][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003230s)
+[2023.12.29-14.16.02:769][405]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.16.02:769][405]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.16.02:769][405]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.16.02:770][405]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2023.12.29-14.16.02:796][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.12.29-14.16.02:799][405]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.12.29-14.16.02:799][405]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.16.02:799][405]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.16.02:799][405]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.16.02:799][405]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.16.02:799][405]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.16.02:799][405]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.16.02:799][405]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.16.02:799][405]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.16.02:800][405]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.16.02:800][405]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.16.02:800][405]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.16.02:802][405]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.16.02:833][405]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.16.02:833][405]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.16.02:833][405]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.16.02:833][405]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.16.02:833][405]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.12.29-14.16.02:833][405]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=15
+[2023.12.29-14.16.02:836][405]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.12.29-14.16.02:836][405]LogInit: FAudioDevice initialized with ID 15.
+[2023.12.29-14.16.02:836][405]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.12.29-14.16.02:836][405]LogAudio: Display: Audio Device (ID: 15) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.16.02:836][405]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.29-14.16.02:839][405]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.16.02:844][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.16.02
+[2023.12.29-14.16.02:845][405]LogWorld: Bringing up level for play took: 0.004782
+[2023.12.29-14.16.02:847][405]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2023.12.29-14.16.02:850][405]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.16.02:850][405]PIE: Server logged in
+[2023.12.29-14.16.02:851][405]PIE: Play in editor total start time 0,089 seconds.
+[2023.12.29-14.16.02:869][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:869][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:870][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:870][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:871][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:871][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:872][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:872][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:873][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:873][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:874][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:874][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:875][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:875][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:876][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:876][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:876][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:877][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:877][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:878][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:878][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:879][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.02:879][405]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:217][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.07:217][811]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.07:218][811]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.16.07:218][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.07:224][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.16.07:229][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.07:252][811]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.29-14.16.07:252][811]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.29-14.16.07:252][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.29-14.16.07:254][811]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.29-14.16.07:258][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.07:261][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.12.29-14.16.07:306][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:306][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:307][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:307][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:308][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:308][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:309][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:309][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:310][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:310][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:311][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:311][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:311][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:312][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:312][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:312][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:313][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:313][811]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.07:370][812]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.12.29-14.16.10:483][ 85]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.29-14.16.10:502][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.16.10:502][ 85]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:16:10)
+[2023.12.29-14.16.10:502][ 85]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.10:505][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003146s)
+[2023.12.29-14.16.10:505][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003186s)
+[2023.12.29-14.16.10:505][ 85]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.16.10:505][ 85]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.16.10:506][ 85]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.16.10:506][ 85]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2023.12.29-14.16.10:530][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.12.29-14.16.10:532][ 85]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.12.29-14.16.10:533][ 85]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.16.10:533][ 85]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.16.10:533][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.16.10:533][ 85]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.16.10:533][ 85]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.16.10:533][ 85]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.16.10:533][ 85]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.16.10:533][ 85]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.16.10:533][ 85]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.16.10:533][ 85]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.16.10:533][ 85]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.16.10:536][ 85]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.16.10:566][ 85]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.16.10:566][ 85]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.16.10:567][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.16.10:567][ 85]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.16.10:567][ 85]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.12.29-14.16.10:567][ 85]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=16
+[2023.12.29-14.16.10:569][ 85]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.12.29-14.16.10:569][ 85]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.12.29-14.16.10:569][ 85]LogInit: FAudioDevice initialized with ID 16.
+[2023.12.29-14.16.10:569][ 85]LogAudio: Display: Audio Device (ID: 16) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.16.10:569][ 85]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.29-14.16.10:572][ 85]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.16.10:577][ 85]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.16.10
+[2023.12.29-14.16.10:577][ 85]LogWorld: Bringing up level for play took: 0.004429
+[2023.12.29-14.16.10:580][ 85]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.12.29-14.16.10:583][ 85]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.16.10:583][ 85]PIE: Server logged in
+[2023.12.29-14.16.10:584][ 85]PIE: Play in editor total start time 0,085 seconds.
+[2023.12.29-14.16.10:601][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:602][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:602][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:602][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:603][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:604][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:605][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:605][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:606][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:606][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:606][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:607][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:607][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:608][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:608][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:609][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:609][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:610][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:610][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:611][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:611][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:611][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.10:612][ 85]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:438][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.15:438][535]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.15:438][535]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.16.15:438][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.15:444][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.16.15:449][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.15:472][535]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.29-14.16.15:472][535]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.29-14.16.15:472][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.29-14.16.15:474][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.29-14.16.15:478][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.15:480][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.29-14.16.15:523][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:523][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:524][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:524][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:525][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:525][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:525][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:526][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:526][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:527][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:527][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:528][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:528][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:528][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:529][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:529][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:529][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:530][535]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.15:583][536]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.12.29-14.16.18:692][805]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.29-14.16.18:709][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.16.18:710][805]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:16:18)
+[2023.12.29-14.16.18:744][805]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.18:747][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003137s)
+[2023.12.29-14.16.18:747][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003183s)
+[2023.12.29-14.16.18:747][805]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.16.18:747][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.16.18:748][805]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.16.18:748][805]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2023.12.29-14.16.18:770][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.12.29-14.16.18:772][805]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.12.29-14.16.18:772][805]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.16.18:772][805]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.16.18:772][805]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.16.18:772][805]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.16.18:772][805]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.16.18:772][805]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.16.18:773][805]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.16.18:773][805]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.16.18:773][805]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.16.18:773][805]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.16.18:773][805]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.16.18:775][805]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.16.18:805][805]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.16.18:805][805]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.16.18:805][805]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.16.18:805][805]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.16.18:805][805]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.12.29-14.16.18:806][805]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=17
+[2023.12.29-14.16.18:808][805]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.12.29-14.16.18:808][805]LogInit: FAudioDevice initialized with ID 17.
+[2023.12.29-14.16.18:808][805]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.12.29-14.16.18:808][805]LogAudio: Display: Audio Device (ID: 17) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.16.18:808][805]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.29-14.16.18:811][805]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.16.18:815][805]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.16.18
+[2023.12.29-14.16.18:816][805]LogWorld: Bringing up level for play took: 0.004248
+[2023.12.29-14.16.18:818][805]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.12.29-14.16.18:821][805]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.16.18:821][805]PIE: Server logged in
+[2023.12.29-14.16.18:822][805]PIE: Play in editor total start time 0,115 seconds.
+[2023.12.29-14.16.18:839][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:839][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:840][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:840][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:840][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:841][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:841][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:842][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:842][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:843][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:843][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:843][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:843][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:844][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:845][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:845][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:845][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:846][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:846][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:847][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:847][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:848][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.18:848][805]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.30:968][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.30:968][925]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.30:968][925]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.16.30:968][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.30:974][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.16.30:979][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.31:002][925]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.29-14.16.31:002][925]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.29-14.16.31:002][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.29-14.16.31:004][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.29-14.16.31:009][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.31:011][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.12.29-14.16.31:056][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:056][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:056][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:057][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:057][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:057][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:058][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:058][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:059][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:059][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:059][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:060][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:060][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:060][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:061][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:061][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:061][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:062][925]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.31:117][926]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.12.29-14.16.51:230][665]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.29-14.16.51:249][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.16.51:249][665]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:16:51)
+[2023.12.29-14.16.51:249][665]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.51:252][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002878s)
+[2023.12.29-14.16.51:252][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.002912s)
+[2023.12.29-14.16.51:252][665]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.16.51:252][665]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.16.51:253][665]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.16.51:253][665]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2023.12.29-14.16.51:276][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.12.29-14.16.51:278][665]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.12.29-14.16.51:278][665]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.16.51:278][665]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.16.51:278][665]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.16.51:278][665]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.16.51:278][665]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.16.51:278][665]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.16.51:278][665]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.16.51:278][665]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.16.51:278][665]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.16.51:278][665]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.16.51:278][665]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.16.51:281][665]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.16.51:311][665]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.16.51:311][665]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.16.51:311][665]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.16.51:311][665]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.16.51:311][665]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.12.29-14.16.51:311][665]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=18
+[2023.12.29-14.16.51:314][665]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.12.29-14.16.51:314][665]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.12.29-14.16.51:314][665]LogInit: FAudioDevice initialized with ID 18.
+[2023.12.29-14.16.51:314][665]LogAudio: Display: Audio Device (ID: 18) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.16.51:314][665]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.29-14.16.51:318][665]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.16.51:322][665]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.16.51
+[2023.12.29-14.16.51:322][665]LogWorld: Bringing up level for play took: 0.004755
+[2023.12.29-14.16.51:325][665]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.12.29-14.16.51:328][665]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.16.51:328][665]PIE: Server logged in
+[2023.12.29-14.16.51:329][665]PIE: Play in editor total start time 0,084 seconds.
+[2023.12.29-14.16.51:347][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:347][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:347][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:348][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:348][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:349][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:349][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:349][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:350][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:350][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:351][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:351][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:351][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:352][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:352][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:353][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:353][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:353][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:353][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:353][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:354][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:355][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.51:355][665]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:779][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.53:779][885]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.16.53:779][885]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.16.53:779][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.53:785][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.16.53:790][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.16.53:814][885]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.29-14.16.53:814][885]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.29-14.16.53:814][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.29-14.16.53:816][885]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.29-14.16.53:819][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.16.53:821][885]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.12.29-14.16.53:868][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:868][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:869][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:869][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:869][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:870][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:870][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:871][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:871][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:872][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:872][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:872][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:873][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:873][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:873][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:874][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:874][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:875][885]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.53:931][886]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.12.29-14.16.59:270][372]Cmd: EDIT COPY
+[2023.12.29-14.16.59:745][413]Cmd: EDIT PASTE
+[2023.12.29-14.16.59:821][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:821][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:822][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:822][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:822][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:823][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:824][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:825][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:825][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:825][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:826][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:826][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:826][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:827][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:827][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:827][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:827][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:828][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.16.59:829][413]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:730][231]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.29-14.17.54:750][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.17.54:750][231]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:17:54)
+[2023.12.29-14.17.54:784][231]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.17.54:787][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003056s)
+[2023.12.29-14.17.54:787][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003105s)
+[2023.12.29-14.17.54:787][231]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.17.54:787][231]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.17.54:787][231]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.17.54:788][231]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2023.12.29-14.17.54:812][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.29-14.17.54:814][231]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.12.29-14.17.54:814][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.17.54:814][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.17.54:814][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.17.54:814][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.17.54:814][231]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.17.54:814][231]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.17.54:814][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.17.54:814][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.17.54:814][231]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.17.54:814][231]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.17.54:814][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.17.54:817][231]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.17.54:848][231]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.17.54:849][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.17.54:849][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.17.54:849][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.17.54:850][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.12.29-14.17.54:850][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=19
+[2023.12.29-14.17.54:852][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.12.29-14.17.54:852][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.12.29-14.17.54:852][231]LogInit: FAudioDevice initialized with ID 19.
+[2023.12.29-14.17.54:852][231]LogAudio: Display: Audio Device (ID: 19) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.17.54:852][231]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.29-14.17.54:855][231]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.17.54:860][231]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.17.54
+[2023.12.29-14.17.54:860][231]LogWorld: Bringing up level for play took: 0.005093
+[2023.12.29-14.17.54:863][231]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.12.29-14.17.54:866][231]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.17.54:866][231]PIE: Server logged in
+[2023.12.29-14.17.54:867][231]PIE: Play in editor total start time 0,121 seconds.
+[2023.12.29-14.17.54:884][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:885][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:885][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:886][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:887][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:887][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:887][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:888][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:888][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:889][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:889][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:890][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:890][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:890][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:891][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:892][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:892][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:894][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:894][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:894][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:895][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:895][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.17.54:896][231]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:337][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.18.10:338][955]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.18.10:338][955]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.18.10:338][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.18.10:344][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.18.10:349][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.18.10:373][955]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.29-14.18.10:373][955]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.29-14.18.10:373][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.29-14.18.10:374][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.29-14.18.10:379][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.18.10:382][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.12.29-14.18.10:426][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:427][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:427][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:428][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:428][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:428][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:429][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:429][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:430][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:430][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:430][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:430][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:430][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:432][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:432][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:432][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:433][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:433][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:434][955]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.10:498][956]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.12.29-14.18.35:719][372]LogEditorViewport: Clicking Background
+[2023.12.29-14.18.42:548][ 23]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.29-14.18.42:569][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.29-14.18.42:569][ 23]PIE: New page: PIE session: Map_SideScroller2D (29.12.2023, 16:18:42)
+[2023.12.29-14.18.42:604][ 23]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.18.42:607][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003008s)
+[2023.12.29-14.18.42:607][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Map_SideScroller2D.Map_SideScroller2D to /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D (0.003058s)
+[2023.12.29-14.18.42:607][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.29-14.18.42:607][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.29-14.18.42:608][ 23]LogAIModule: Creating AISystem for world Map_SideScroller2D
+[2023.12.29-14.18.42:608][ 23]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2023.12.29-14.18.42:634][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.12.29-14.18.42:635][ 23]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.12.29-14.18.42:635][ 23]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.29-14.18.42:635][ 23]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.29-14.18.42:635][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.29-14.18.42:635][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.29-14.18.42:635][ 23]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.29-14.18.42:636][ 23]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.29-14.18.42:636][ 23]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.29-14.18.42:636][ 23]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.29-14.18.42:636][ 23]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.29-14.18.42:636][ 23]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.29-14.18.42:636][ 23]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.29-14.18.42:638][ 23]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.29-14.18.42:673][ 23]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (CORSAIR HS80 RGB Wireless Gaming Headset)
+[2023.12.29-14.18.42:674][ 23]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.29-14.18.42:674][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.29-14.18.42:674][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.29-14.18.42:675][ 23]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.12.29-14.18.42:675][ 23]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=20
+[2023.12.29-14.18.42:677][ 23]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.12.29-14.18.42:678][ 23]LogInit: FAudioDevice initialized with ID 20.
+[2023.12.29-14.18.42:678][ 23]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.12.29-14.18.42:678][ 23]LogAudio: Display: Audio Device (ID: 20) registered with world 'Map_SideScroller2D'.
+[2023.12.29-14.18.42:678][ 23]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.29-14.18.42:681][ 23]LogLoad: Game class is 'GM_Sidescroller_C'
+[2023.12.29-14.18.42:686][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Map_SideScroller2D.Map_SideScroller2D up for play (max tick rate 0) at 2023.12.29-15.18.42
+[2023.12.29-14.18.42:686][ 23]LogWorld: Bringing up level for play took: 0.004693
+[2023.12.29-14.18.42:689][ 23]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.12.29-14.18.42:692][ 23]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.12.29-14.18.42:692][ 23]PIE: Server logged in
+[2023.12.29-14.18.42:692][ 23]PIE: Play in editor total start time 0,128 seconds.
+[2023.12.29-14.18.42:710][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:712][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:712][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:713][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:713][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:714][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:714][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:714][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:716][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:716][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:716][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:717][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:717][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:718][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:718][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:719][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:719][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:719][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:719][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:720][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:720][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:720][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.42:721][ 23]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:827][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.18.58:827][808]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Map_SideScroller2D
+[2023.12.29-14.18.58:828][808]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.18.58:828][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.18.58:833][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.29-14.18.58:839][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.18.58:862][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.29-14.18.58:862][808]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.29-14.18.58:863][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.29-14.18.58:864][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.29-14.18.58:872][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.12.29-14.18.58:911][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:912][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:912][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:913][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:913][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:913][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:914][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:914][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:914][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:915][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:915][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:916][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:916][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:916][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:917][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:917][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:918][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:918][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:918][808]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.29-14.18.58:980][809]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.12.29-14.19.02:080][121]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.29-14.19.02:143][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.12.29-14.19.02:157][121]LogSavePackage: Moving output files for package: /Game/Maps/Map_SideScroller2D
+[2023.12.29-14.19.02:158][121]LogSavePackage: Moving '../../../../../../Users/Reali/Documents/GitHub/PROJECT_A/SideScroller/Saved/Map_SideScroller2DE9C5BB5C44911D09A60D3485C22B5F8F.tmp' to '../../../../../../Users/Reali/Documents/GitHub/PROJECT_A/SideScroller/Content/Maps/Map_SideScroller2D.umap'
+[2023.12.29-14.19.02:173][121]LogFileHelpers: Saving map 'Map_SideScroller2D' took 0.054
+[2023.12.29-14.19.02:181][121]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 707 ms)
+[2023.12.29-14.19.02:188][121]AssetCheck: New page: Asset Save: Map_SideScroller2D
+[2023.12.29-14.19.02:188][121]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Map_SideScroller2D.Map_SideScroller2D
+[2023.12.29-14.19.03:895][291]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.12.29-14.19.03:896][291]LogStall: Shutdown...
+[2023.12.29-14.19.03:900][291]LogStall: Shutdown complete.
+[2023.12.29-14.19.03:934][291]LogSlate: Window 'Slime_Ai' being destroyed
+[2023.12.29-14.19.04:007][291]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.19.04:008][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.19.04:075][291]LogSlate: Window 'Details' being destroyed
+[2023.12.29-14.19.04:079][291]LogSlate: Window 'Details' being destroyed
+[2023.12.29-14.19.04:095][291]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.19.04:095][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.19.04:187][291]LogSlate: Window 'Outliner 3' being destroyed
+[2023.12.29-14.19.04:193][291]LogSlate: Window '' being destroyed
+[2023.12.29-14.19.04:202][291]LogSlate: Window 'Outliner 2' being destroyed
+[2023.12.29-14.19.04:208][291]LogSlate: Window 'Details' being destroyed
+[2023.12.29-14.19.04:243][291]LogSlate: Window 'SideScroller - Unreal Editor' being destroyed
+[2023.12.29-14.19.04:347][292]Cmd: QUIT_EDITOR
+[2023.12.29-14.19.04:347][292]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.12.29-14.19.04:354][292]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.12.29-14.19.04:354][292]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.12.29-14.19.04:354][292]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.12.29-14.19.04:355][292]LogWorld: UWorld::CleanupWorld for Map_SideScroller2D, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.19.04:355][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.29-14.19.04:355][292]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.12.29-14.19.04:356][292]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.12.29-14.19.04:495][292]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.12.29-14.19.04:495][292]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.12.29-14.19.04:495][292]LogAudio: Display: Audio Device unregistered from world 'Map_SideScroller2D'.
+[2023.12.29-14.19.04:495][292]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.12.29-14.19.04:495][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.12.29-14.19.04:497][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.12.29-14.19.04:502][292]LogAudio: Display: Audio Device Manager Shutdown
+[2023.12.29-14.19.04:510][292]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.12.29-14.19.04:511][292]LogExit: Preparing to exit.
+[2023.12.29-14.19.04:547][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.04:562][292]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.12.29-14.19.05:003][292]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.19.05:006][292]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.12.29-14.19.05:068][292]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.12.29-14.19.05:078][292]LogExit: Editor shut down
+[2023.12.29-14.19.05:080][292]LogExit: Transaction tracking system shut down
+[2023.12.29-14.19.05:222][292]LogExit: Object subsystem successfully closed.
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: ================================================
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 4 distinct outputs (100.00%)
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: RAM used: 80,72 KiB of 1,60 GiB budget. Usage: 0.00%
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.12.29-14.19.05:228][292]LogShaderCompilers: Display: ================================================
+[2023.12.29-14.19.05:314][292]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.12.29-14.19.05:334][292]LogVirtualization: UE::Virtualization was shutdown
+[2023.12.29-14.19.05:398][292]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1011)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module Voice (1009)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1007)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AddContentDialog (1005)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1004)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1001)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module SceneOutliner (999)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module StatusBar (997)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (995)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (993)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module StatsViewer (991)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (989)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AutomationWorker (987)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (985)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (983)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (981)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module TextureAlignMode (979)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module BspMode (977)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module GeometryMode (975)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (973)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (971)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module WaveTableEditor (969)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module GooglePADEditor (967)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (965)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (963)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (961)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (959)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (957)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (955)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (953)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module WebMMedia (951)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (949)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (947)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module SequenceRecorder (946)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (943)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (941)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (939)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (937)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (935)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module IKRigEditor (933)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (931)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (929)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module ControlRigEditor (927)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module PlanarCut (925)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module FractureEngine (923)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module CharacterAI (921)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module SmartSnapping (919)
+[2023.12.29-14.19.05:399][292]LogModuleManager: Shutting down and abandoning module SessionServices (917)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module MeshPaint (915)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (913)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module PlacementMode (912)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module FoliageEdit (909)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module LandscapeEditor (907)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (905)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module ActorPickerMode (903)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module ViewportSnapping (901)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module ViewportInteraction (899)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module ClothPainter (897)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (896)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module LogVisualizer (893)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (891)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (889)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (888)
+[2023.12.29-14.19.05:400][292]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (886)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (883)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (881)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (879)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (877)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (875)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (873)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module AnimationSettings (871)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (869)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module CSVtoSVG (867)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (865)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module EditorConfig (863)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module EditorFramework (861)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (859)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module TraceInsights (857)
+[2023.12.29-14.19.05:909][292]MemoryProfiler: Shutdown
+[2023.12.29-14.19.05:909][292]NetworkingProfiler: Shutdown
+[2023.12.29-14.19.05:909][292]LoadingProfiler: Shutdown
+[2023.12.29-14.19.05:909][292]TimingProfiler: Shutdown
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module TraceServices (856)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module TraceAnalysis (855)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (851)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (850)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module InputBindingEditor (847)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module MergeActors (845)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (843)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module LocalizationService (842)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module HardwareTargeting (839)
+[2023.12.29-14.19.05:909][292]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (837)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module UndoHistory (835)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module XmlParser (833)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module Blutility (831)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (829)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (828)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (825)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (824)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module SettingsEditor (821)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module ProjectLauncher (819)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module SessionFrontend (817)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module ProfilerClient (815)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module DeviceManager (813)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module AutomationController (811)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module AutomationWindow (809)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module Layers (807)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (805)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module DetailCustomizations (803)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module PackagesDialog (801)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (799)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module Persona (797)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (796)
+[2023.12.29-14.19.05:910][292]LogModuleManager: Shutting down and abandoning module Kismet (793)
+[2023.12.29-14.19.05:923][292]LogModuleManager: Shutting down and abandoning module KismetWidgets (792)
+[2023.12.29-14.19.05:923][292]LogModuleManager: Shutting down and abandoning module GraphEditor (789)
+[2023.12.29-14.19.05:923][292]LogModuleManager: Shutting down and abandoning module StructViewer (787)
+[2023.12.29-14.19.05:923][292]LogModuleManager: Shutting down and abandoning module ClassViewer (785)
+[2023.12.29-14.19.05:923][292]LogModuleManager: Shutting down and abandoning module NaniteTools (783)
+[2023.12.29-14.19.05:923][292]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (781)
+[2023.12.29-14.19.05:924][292]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (779)
+[2023.12.29-14.19.05:924][292]LogModuleManager: Shutting down and abandoning module SourceControlWindows (777)
+[2023.12.29-14.19.05:924][292]LogModuleManager: Shutting down and abandoning module OutputLog (775)
+[2023.12.29-14.19.05:924][292]LogModuleManager: Shutting down and abandoning module Documentation (773)
+[2023.12.29-14.19.05:924][292]LogModuleManager: Shutting down and abandoning module LiveCoding (771)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (769)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (767)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module MovieScene (765)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (763)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (761)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (759)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module AudioMixer (758)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module AudioMixerCore (757)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module LauncherPlatform (753)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module AnalyticsET (751)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module PortalServices (749)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module PortalRpc (747)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module MessagingRpc (745)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module AIModule (743)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module GameplayDebugger (742)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module AITestSuite (740)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module NavigationSystem (738)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module DataLayerEditor (735)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module EditorWidgets (734)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (731)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (729)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module TypedElementFramework (727)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (725)
+[2023.12.29-14.19.05:930][292]LogModuleManager: Shutting down and abandoning module ProfilerService (723)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (721)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (719)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (717)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (715)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module TakesCore (713)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (711)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module LightMixer (709)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (707)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (705)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (703)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (701)
+[2023.12.29-14.19.06:137][292]LogModuleManager: Shutting down and abandoning module CollectionManager (700)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (697)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module TemplateSequence (695)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (693)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module SequencerScripting (691)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module PluginUtils (689)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GitSourceControl (687)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (685)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (683)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (681)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangePipelines (679)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeExport (677)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeMessages (675)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeImport (673)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (671)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeNodes (669)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (667)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (665)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (663)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeEditor (661)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module UObjectPlugin (659)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (657)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (655)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (653)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module DumpGPUServices (651)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module StylusInput (649)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (647)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (645)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (643)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (641)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (639)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (637)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (635)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module PluginBrowser (633)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (631)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (629)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GLTFImporter (627)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GLTFCore (625)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ChangelistReview (623)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (621)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (619)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module CryptoKeys (617)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module EditorDebugTools (615)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module CurveEditorTools (613)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (611)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module TakeSequencer (609)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module TakeMovieScene (607)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (605)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InterchangeTests (603)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module VariantManager (601)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (600)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (597)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ResonanceAudio (595)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module SynthesisEditor (593)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (591)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (589)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module InputDebugging (587)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (585)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (583)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ModelingOperators (581)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (579)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ModelingComponents (577)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GeometryFramework (576)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (573)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module MeshModelingTools (571)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module DynamicMesh (569)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (567)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GooglePAD (565)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (563)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (561)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (559)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (557)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module AppleImageUtils (555)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module AssetTags (553)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module AudioCapture (551)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (550)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (547)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module AndroidPermission (545)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (543)
+[2023.12.29-14.19.06:138][292]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (541)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (539)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MediaPlate (537)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MediaCompositing (535)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ImgMedia (533)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (531)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ControlRigSpline (529)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (527)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (525)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module AlembicImporter (521)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module AlembicLibrary (520)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryCache (519)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (518)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (513)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module UVEditorTools (511)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module UVEditor (509)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module PresetAsset (507)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (505)
+[2023.12.29-14.19.06:139][292]LogOpenImageDenoise: OIDN shutting down
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MeshLODToolset (503)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (501)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (499)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (497)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (495)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (493)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (491)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (489)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (487)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (485)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (484)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (482)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (479)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module DataflowNodes (477)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (475)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module DataflowEditor (473)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ChaosNiagara (471)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (469)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (467)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (465)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module FractureEditor (463)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module BackChannel (461)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (459)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module AutomationUtils (457)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (455)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (453)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module Paper2DEditor (451)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (449)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module TraceUtilities (447)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (445)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (443)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module InputEditor (441)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module BlueprintGraph (440)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (437)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module ActorSequence (435)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (433)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (431)
+[2023.12.29-14.19.06:139][292]LogModuleManager: Shutting down and abandoning module UdpMessaging (429)
+[2023.12.29-14.19.06:240][292]LogModuleManager: Shutting down and abandoning module AnimationSharing (427)
+[2023.12.29-14.19.06:240][292]LogModuleManager: Shutting down and abandoning module TcpMessaging (425)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (423)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module FacialAnimation (421)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (419)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module DataValidation (417)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (415)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module TreeMap (414)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module Synthesis (411)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module SoundFields (409)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module SignificanceManager (407)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (405)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (403)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module MetasoundEditor (401)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module AudioWidgets (400)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (399)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (395)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module MetasoundEngine (393)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module WaveTable (392)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (390)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (387)
+[2023.12.29-14.19.06:341][292]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (385)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (383)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (381)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (379)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (377)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module CableComponent (375)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (373)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (372)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (369)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module GameplayCameras (367)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (365)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (363)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module IKRig (361)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (359)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module Niagara (357)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module SignalProcessing (356)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module NiagaraEditor (354)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module ContentBrowser (353)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module ToolMenus (352)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module ContentBrowserData (350)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module NiagaraCore (345)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (343)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module ControlRig (341)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module Constraints (340)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module AnimationData (337)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (335)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module PBIK (333)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module FullBodyIK (331)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (329)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module TakeRecorder (328)
+[2023.12.29-14.19.06:342][292]LogModuleManager: Shutting down and abandoning module LevelEditor (326)
+[2023.12.29-14.19.06:344][292]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (325)
+[2023.12.29-14.19.06:344][292]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (323)
+[2023.12.29-14.19.06:344][292]LogModuleManager: Shutting down and abandoning module MainFrame (321)
+[2023.12.29-14.19.06:344][292]LogModuleManager: Shutting down and abandoning module HotReload (320)
+[2023.12.29-14.19.06:345][292]LogModuleManager: Shutting down and abandoning module ChaosCaching (315)
+[2023.12.29-14.19.06:345][292]LogModuleManager: Shutting down and abandoning module LevelSequence (314)
+[2023.12.29-14.19.06:345][292]LogModuleManager: Shutting down and abandoning module Paper2D (311)
+[2023.12.29-14.19.06:345][292]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (309)
+[2023.12.29-14.19.06:345][292]LogModuleManager: Shutting down and abandoning module EnhancedInput (307)
+[2023.12.29-14.19.06:345][292]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (305)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (303)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module AndroidFileServer (301)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (299)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module PacketHandler (297)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (295)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module AnimGraph (293)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module TimeManagement (291)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module AnimationDataController (289)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (287)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (285)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module MediaAssets (283)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module Overlay (281)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module OverlayEditor (280)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module VREditor (277)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module StringTableEditor (275)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (273)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (271)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module FunctionalTesting (269)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (267)
+[2023.12.29-14.19.06:346][292]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (266)
+[2023.12.29-14.19.06:347][292]LogModuleManager: Shutting down and abandoning module UMG (263)
+[2023.12.29-14.19.06:347][292]LogModuleManager: Shutting down and abandoning module UMGEditor (262)
+[2023.12.29-14.19.06:347][292]LogModuleManager: Shutting down and abandoning module EditorStyle (257)
+[2023.12.29-14.19.06:347][292]LogModuleManager: Shutting down and abandoning module SlateReflector (255)
+[2023.12.29-14.19.06:347][292]LogModuleManager: Shutting down and abandoning module Slate (253)
+[2023.12.29-14.19.06:347][292]LogModuleManager: Shutting down and abandoning module SlateCore (251)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (249)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (247)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module UnrealEd (245)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MRMesh (243)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module Messaging (241)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (239)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (237)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module Networking (235)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module Core (233)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module AssetDefinition (231)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MovieSceneTools (229)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module CurveEditor (228)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module KismetCompiler (223)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MeshBuilder (221)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module NaniteBuilder (219)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MeshUtilities (217)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (216)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (215)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (214)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (212)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (210)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (208)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module MaterialBaking (204)
+[2023.12.29-14.19.06:349][292]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (201)
+[2023.12.29-14.19.06:360][292]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (197)
+[2023.12.29-14.19.06:360][292]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (195)
+[2023.12.29-14.19.06:360][292]LogModuleManager: Shutting down and abandoning module DerivedDataCache (193)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module TargetPlatform (191)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (190)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (188)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (186)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (184)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (182)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module AudioFormatBink (180)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (177)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (175)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (173)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (171)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (167)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (165)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (163)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (161)
+[2023.12.29-14.19.06:363][292]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (159)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module TextureFormat (157)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module ImageWrapper (156)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (154)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (152)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (150)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (148)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (146)
+[2023.12.29-14.19.06:364][292]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (144)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module TurnkeySupport (141)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module InputCore (138)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module Settings (136)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (134)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (132)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (131)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module Chaos (128)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module GeometryCore (127)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (124)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (123)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module AVEncoder (122)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module D3D12RHI (118)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module AISupportModule (116)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (114)
+[2023.12.29-14.19.06:365][292]RenderDocPlugin: plugin has been unloaded.
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module PixWinPlugin (112)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (110)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module VariantManagerContent (108)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module GLTFExporter (106)
+[2023.12.29-14.19.06:365][292]LogModuleManager: Shutting down and abandoning module DatasmithContent (104)
+[2023.12.29-14.19.06:366][292]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (102)
+[2023.12.29-14.19.06:366][292]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (100)
+[2023.12.29-14.19.06:366][292]LogModuleManager: Shutting down and abandoning module ChunkDownloader (98)
+[2023.12.29-14.19.06:366][292]LogModuleManager: Shutting down and abandoning module WmfMedia (96)
+[2023.12.29-14.19.06:369][292]LogModuleManager: Shutting down and abandoning module Media (95)
+[2023.12.29-14.19.06:370][292]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (92)
+[2023.12.29-14.19.06:370][292]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (90)
+[2023.12.29-14.19.06:370][292]LogModuleManager: Shutting down and abandoning module NiagaraShader (88)
+[2023.12.29-14.19.06:370][292]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
+[2023.12.29-14.19.06:370][292]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (84)
+[2023.12.29-14.19.06:370][292]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (82)
+[2023.12.29-14.19.06:372][292]LogModuleManager: Shutting down and abandoning module XMPP (77)
+[2023.12.29-14.19.06:372][292]LogModuleManager: Shutting down and abandoning module WebSockets (76)
+[2023.12.29-14.19.06:380][292]LogModuleManager: Shutting down and abandoning module HTTP (73)
+[2023.12.29-14.19.06:380][292]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.12.29-14.19.06:380][292]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEC4C4E2E-470C-06AF-7D53-A998A308C212%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=0b580d794371b7362be6d7b00490772b%7C3402ee84520b49f181866d8efd7e0267%7Cbfeaed90-1b10-4ecd-9ba9-42b8ba407e88&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.12.29-14.19.06:412][292]LogModuleManager: Shutting down and abandoning module SSL (72)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (68)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (66)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (64)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module ChaosCloth (62)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module DesktopPlatform (60)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (58)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (56)
+[2023.12.29-14.19.06:413][292]LogModuleManager: Shutting down and abandoning module SourceControl (55)
+[2023.12.29-14.19.06:414][292]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (52)
+[2023.12.29-14.19.06:414][292]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (50)
+[2023.12.29-14.19.06:414][292]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (48)
+[2023.12.29-14.19.06:414][292]LogModuleManager: Shutting down and abandoning module PlatformCrypto (46)
+[2023.12.29-14.19.06:414][292]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.12.29-14.19.06:414][292]LogXGEController: Cleaning working directory: C:/Users/Reali/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.12.29-14.19.06:415][292]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.12.29-14.19.06:415][292]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.12.29-14.19.06:415][292]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.12.29-14.19.06:415][292]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.12.29-14.19.06:416][292]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.12.29-14.19.06:416][292]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.12.29-14.19.06:416][292]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.12.29-14.19.06:416][292]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.12.29-14.19.06:416][292]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.12.29-14.19.06:416][292]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.12.29-14.19.06:417][292]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.12.29-14.19.06:523][292]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.12.29-14.19.06:566][292]LogExit: Exiting.
+[2023.12.29-14.19.06:660][292]Log file closed, 12/29/23 15:19:06
